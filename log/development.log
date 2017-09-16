@@ -305,3 +305,10 @@ Cannot render console from 103.66.79.56! Allowed networks: 127.0.0.1, ::1, 127.0
 
 Started GET "/assets/helloworld.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 103.66.79.56 at 2017-09-16 15:53:26 +0000
 Cannot render console from 103.66.79.56! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/hello_world" for 103.66.79.56 at 2017-09-16 16:00:28 +0000
+Cannot render console from 103.66.79.56! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HelloworldController#hello_world as HTML
+  Rendered helloworld/hello_world.html.erb within layouts/application (4.3ms)
+Completed 200 OK in 335ms (Views: 313.7ms | ActiveRecord: 0.0ms)
